@@ -49,7 +49,7 @@ with st.sidebar:
     if st.button("Clear chat"):
         st.session_state.messages.clear()
         st.session_state.name = None
-        st.experimental_rerun()
+        st.rerun()
     st.caption("Try: hi, my name is Ravi, how are you, what is my name, bye")
 
 # show history
